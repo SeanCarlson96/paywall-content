@@ -1,0 +1,18 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px; */
+  box-sizing: border-box;
+  background-color: #0d1317;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .app-container {
+    padding: 0 10px;
+  }
+}
