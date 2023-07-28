@@ -8,7 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { SuccessComponentComponent } from './success-component/success-component.component';
 
 const appRoutes: Routes = [
-  { path: '7gT9#5vB@2Z6&X1R$8JQ%', component: SuccessComponentComponent },
+  { path: '7gT96vB2Z6X1R8JQZ5fY', component: SuccessComponentComponent },
   { path: '', component: ContentComponentComponent },
 ];
 
