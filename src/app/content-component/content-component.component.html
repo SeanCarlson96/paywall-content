@@ -1,12 +1,30 @@
 <div class="content-section">
-  <h2 class="content-title">Introduction</h2>
-  <p class="content-text" *ngIf="!contentUnlocked">
-    Teaser Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam
-  </p>
-  <button class="checkout-button" *ngIf="!contentUnlocked" (click)="checkout()">
-    Unlock for $1.99
-  </button>
-  <p class="content-text" *ngIf="contentUnlocked">
-    Full content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam
-  </p>
+  <!-- <h2 class="content-title">Scalebound Flight</h2> -->
+  <div class="content-text" *ngIf="!contentUnlocked">
+    <p>If Lisa Grant's morning had begun as just another ordinary day, it ended with the world whispering her name in hushed, conspiratorial tones.</p>
+    <p>Beneath a pearl grey sky, a commercial airliner perched on the runway, its silver wings gleaming as if saluting the rising sun. But inside its humming cabin, far from the mundane safety of her home, Lisa Grant, a 38-year-old school teacher from Ohio, discovered a chilling truth that would shake the very core of her reality.</p>
+    <p>Lisa found herself seated next to a man who seemed ordinary enough: a slight stoop in his shoulders, a worn-out hoodie shielding him from the icy cabin temperature,
+      his face obscured by the hood's shadow. But as the saying goes, the devil is in the details.
+    </p>
+  </div>
+  <div class="content-text" *ngIf="contentUnlocked">
+    <p>If Lisa Grant's morning had begun as just another ordinary day, it ended with the world whispering her name in hushed, conspiratorial tones.</p>
+    <p>Beneath a pearl grey sky, a commercial airliner perched on the runway, its silver wings gleaming as if saluting the rising sun. But inside its humming cabin, far from the mundane safety of her home, Lisa Grant, a 38-year-old school teacher from Ohio, discovered a chilling truth that would shake the very core of her reality.</p>
+    <p>Lisa found herself seated next to a man who seemed ordinary enough: a slight stoop in his shoulders, a worn-out hoodie shielding him from the icy cabin temperature, his face obscured by the hood's shadow. But as the saying goes, the devil is in the details.</p>
+    <p>As they began to ascend, her eyes kept wandering back to him. His fingers, absent-mindedly tapping on the armrest, were too long, too nimble, almost serpentine. She noticed his eyes, peeking from beneath the hoodie's shadow, flickered a cold, reptilian green in the dull cabin light. His voice, when he asked the flight attendant for water, held a strangely metallic echo.</p>
+    <p>Then, there was the tongue, flicking out quickly and subtly as he sipped his water - a disturbingly quick, forked tongue that no human could possess. Suddenly, her heart pounded with a dread realization; she was sitting next to a shapeshifting reptilian humanoid.</p>
+    <p>Panic seized her, her heart drumming a chaotic rhythm against her ribs. She leapt from her seat, her voice rising in a scream that bounced off the cabin walls, "This man is not real!" Her words, a mixture of terror and warning, echoed through the shocked silence. She pounded on the cabin door, her pleas to be let off the plane tangled with her desperate attempts to warn the rest of the passengers.</p>
+    <p>Smartphones were raised; videos of the terrified woman and the silent, hoodie-clad man were soon racing through the veins of the internet. #ScaleboundFlight was trending worldwide before the plane could even make an emergency landing.</p>
+    <p>News of Lisa's actions spread like wildfire, her face plastered on every screen, her name echoed in every corner of the globe. The world watched, spellbound, as the hoodie-wearing man finally responded. He appeared in a video, assuring everyone he was just a normal man caught up in an extraordinary misunderstanding. He seemed sincere, calm, almost human. Almost.</p>
+    <p>But eagle-eyed viewers were quick to point out anomalies in his video. The shadowy corner of the room where the man sat had an unnatural chill to it. The occasional flicker of his seemingly human eyes revealed a glint of green. And when he spoke, his words were echoed by the faintest hint of a metallic resonance.</p>
+    <p>Suddenly, Lisa Grant was no longer a lone herald of fear and panic; she was a beacon of truth in a world blinded by normalcy. Unknowingly, Lisa had stirred a hornet's nest of conspiracy, setting the world on a path of realization: that beneath the cloak of the ordinary may lurk the extraordinary, the bizarre, the reptilian. And life as we know it, might never be the same again.</p>
+  </div>
+
+  <div class="checkout" *ngIf="!contentUnlocked">
+    <button class="checkout-button" (click)="checkout()">
+      Unlock Full Narrative for $1.99
+    </button>
+    <p>We apologize for the paywall, but this is both the price of insight, and a barrier for those who are not yet ready</p>
+  </div>
+
 </div>

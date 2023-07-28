@@ -14,6 +14,6 @@ export class ContentComponentComponent {
   }
 
   checkout() {
-    window.location.href = 'https://buy.stripe.com/test_cN2eVD6QF8zCaSAfYZ';
+    window.location.href = 'https://buy.stripe.com/9AQ4iD8PZ9cY9YQaEF';
   }
 }
