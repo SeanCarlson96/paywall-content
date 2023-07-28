@@ -1,16 +1,12 @@
 <div class="content-section">
   <h2 class="content-title">Introduction</h2>
-  <p class="content-text" *ngIf="contentUnlocked">
-    Full content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam
-  </p>
   <p class="content-text" *ngIf="!contentUnlocked">
     Teaser Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam
   </p>
   <button class="checkout-button" *ngIf="!contentUnlocked" (click)="checkout()">
     Unlock for $1.99
   </button>
-  <div *ngIf="contentUnlocked">
-    <p>This is the full content that you can see after successful payment.</p>
-  </div>
-
+  <p class="content-text" *ngIf="contentUnlocked">
+    Full content - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, nisl eget ultricies aliquam, nunc nisl aliquet nunc, quis aliquam
+  </p>
 </div>
