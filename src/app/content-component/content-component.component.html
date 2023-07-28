@@ -9,4 +9,8 @@
   <button class="checkout-button" *ngIf="!contentUnlocked" (click)="checkout()">
     Unlock for $1.99
   </button>
+  <div *ngIf="contentUnlocked">
+    <p>This is the full content that you can see after successful payment.</p>
+  </div>
+
 </div>

@@ -15,7 +15,8 @@ export class ContentComponentComponent {
 
   checkout() {
     // Call Stripe's Checkout, and if the payment is successful, unlock the full content
-    window.location.href = 'https://buy.stripe.com/test_6oE3cVcaZ3fie4M000';
+    // window.location.href = 'https://buy.stripe.com/test_6oE3cVcaZ3fie4M000';
+    window.location.href = 'https://buy.stripe.com/test_cN2eVD6QF8zCaSAfYZ';
 
   }
 }
